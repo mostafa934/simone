@@ -1,2 +1,2 @@
-# simone
-html , css  and responsive fiirst v
+# simone v 1.0.0
+html , css  and responsive 

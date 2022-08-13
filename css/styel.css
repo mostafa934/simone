@@ -1,0 +1,967 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*****************         home ******************/
+#home
+{
+    width: 100%; 
+     height: 100vh;
+    background-image: url(img/intro-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.sett
+{
+    width: 50px;
+    height: 40px;
+    background-color: #555;
+    position: fixed;
+    right: -10px;
+    top: 200px;
+    border-radius: 5px;
+    z-index: 999;
+    overflow: hidden;
+padding: 10px 7px;
+
+}
+ .sett i
+{
+   color :#fff
+} 
+#home .layer
+{
+    background-color: rgba(33, 37, 41, .8);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+   
+}
+ .navbar
+{
+   
+    position: fixed;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+     width: 100%;
+    padding: 10px;
+    background-color: rgba(33, 37, 41, .8);
+}
+.cont
+{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+ .navbar .links ul
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar .links ul li a:hover
+{
+color: #20c997;
+}
+ .navimg
+{
+    margin: 10px;
+}
+ .navbar .links ul li{
+    margin:  12px;
+    list-style-type: none;
+    
+}
+ .navbar .links a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#home .layer .caption1 {
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center
+}
+#home .layer .caption1 h1{
+    margin: 10px;
+}
+#home .layer .caption1 h2{
+    font-size: 28px;
+}
+#home .layer .caption1 h3
+{
+    font-size: 21px;
+}
+#home .layer .caption1 h1::before
+{
+    content: "|";
+    animation-name: typing ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+@keyframes typing {
+    1% {content:  "I|";}
+    2% {content:  "I'|";}
+    3% {content:  "I'm|";}
+    4% {content:  "I'm |";}
+    5% {content:  "I'm S|";}
+    6% {content:  "I'm Si|";}
+    7% {content:  "I'm Sim|";}
+    8% {content:  "I'm Simo|";}
+    9% {content:  "I'm Simon|";}
+    10% {content:  "I'm Simone|";}
+    11% {content:  "I'm Simone O|";}
+    12% {content:  "I'm Simone Ol|";}
+    13% {content:  "I'm Simone Oli|";}
+    14% {content:  "I'm Simone Oliv|";}
+    15% {content:  "I'm Simone Olivi|";}
+    16% {content:  "I'm Simone Olivia|";}
+    17% {content:  "I'm Simone Olivi|";}
+    18% {content:  "I'm Simone Oli|";}
+    19% {content:  "I'm Simone Ol|";}
+    20% {content:  "I'm Simone O|";}
+    21% {content:  "I'm Simone|";}
+    22% {content:  "I'm Simon|";}
+    23% {content:  "I'm Simo|";}
+    24% {content:  "I'm Sim|";}
+    25% {content:  "I'm Si|";}
+    26% {content:  "I'm S|";}
+    27% {content:  "I'm |";}
+    28% {content:  "I'm|";}
+    29% {content:  "I'|";}
+    30% {content:  "I|";}
+    31% {content:  "|";}
+    32% {content:  " I|";}
+    33% {content:  " I'|";}
+    34% {content:  " I'm |";}
+    35% {content:  " I'm a|";}
+    36% {content:  " I'm a F|";}
+    37% {content:  " I'm a Fr|";}
+    38% {content:  " I'm a Fre|";}
+    39% {content:  " I'm a Free|";}
+    40% {content:  " I'm a Freel|";}
+    41% {content:  " I'm a Freela|";}
+    42% {content:  " I'm a Freelan|";}
+    43% {content:  " I'm a Freelanc|";}
+    44% {content:  " I'm a Freelance|";}
+    45% {content:  " I'm a Freelanc|";}
+    46% {content:  " I'm a Freelan|";}
+    47% {content:  " I'm a Freela|";} 
+    48% {content:  " I'm a Freel|";}
+    49% {content:  " I'm a Free|";}
+    50% {content:  " I'm a Fre|";}
+    51% {content:  " I'm a Fr|";}
+    52% {content:  " I'm a F|";}
+    53% {content:  " I'm a|";}
+    54% {content:  " I'm |";}
+    55% {content:  " I'|";}
+    56% {content:  " I|";}
+    57% {content:  "|";}
+    58% {content:  " I|";}
+    59% {content:  " I'|";}
+    60% {content:  " I'm |";}
+    61% {content:  " I'm a|";}
+    62% {content:  " I'm a P|";}
+    63% {content:  " I'm a Ph|";}
+    64% {content:  " I'm a Pho|";}
+    65% {content:  " I'm a Phot|";}
+    66% {content:  " I'm a Photo|";}
+    67% {content:  " I'm a Photog|";}
+    68% {content:  " I'm a Photogr|";}
+    69% {content:  " I'm a Photogra|";}
+    70% {content:  " I'm a Photograp|";}
+    71% {content:  " I'm a Photograph|";}
+    72% {content:  " I'm a Photographe|";}
+    73% {content:  " I'm a Photographer|";} 
+    74% {content:  " I'm a Photographer.|";}
+    75% {content:  " I'm a Photographer|";}
+    76% {content:  " I'm a Photographe|";}
+    77% {content:  " I'm a Photograph|";}
+    78% {content:  " I'm a Photogra|";}
+    79% {content:  " I'm a Photogr|";}
+    80% {content:  " I'm a Photog|";}
+    81% {content:  " I'm a Photo|";}
+    82% {content:  " I'm a Phot|";}
+    83% {content:  " I'm a Pho|";}
+    84% {content:  " I'm a Ph|";}
+    85% {content:  " I'm a P|";}
+    86% {content:  " I'm a D|";}
+    87% {content:  " I'm a De|";}
+    88% {content:  " I'm a Des|";}
+    89% {content:  " I'm a Desi|";}
+    90% {content:  " I'm a Desig|";}
+    91% {content:  "I'm a Design|";}
+    92% {content:  "I'm a Designe|";}
+    92.5% {content:  "I'm a Designer|";}
+    93% {content:  "I'm a Designer.|";}
+    93.5% {content:  "I'm a Designer|";}
+    94% {content:  "I'm a Designe|";}
+    94.5% {content:  "I'm a Design|";}
+    95% {content:  "I'm a Desig|";}
+    95.5% {content:  "I'm a Desi|";}
+    96% {content:  "I'm a Des|";}
+    96.5% {content:  "I'm a De|";}
+    97% {content:  "I'm a D|";}
+    97.5% {content:  "I'm a |";}
+    98% {content:  "I'm|";}
+    98.5% {content:  "I' |";}
+    99% {content:  "I |";}
+    100% {content:  "|";}
+}
+#home .layer .caption1 .butt1
+{
+    color: #20c997;
+    background-color: transparent;
+    border: 2px solid #20c997;
+    padding: 15px 37px;
+    margin: 20px;
+    font-size: 17px;
+    border-radius: 25px;
+    transition: all 1s;
+}
+#home .layer .caption1 .butt1:hover
+{
+    background-color: #20c997;
+    color: #fff;
+}
+.iconsett
+{
+    padding: 10px;
+    font-size: 10px;
+}
+/*****************         sec2      ******************/
+.tit1
+{
+    height: 200px;
+    
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, .1);
+    font-size: 70px;
+    
+}
+.tit2
+{
+    position: absolute;
+    color:#000;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.line1
+{
+    background-color: #20c997;
+    width: 70px;
+    height: 2px;
+    margin: 5px 75px;
+}
+.cgreen
+{
+    color: #20c997;
+    text-decoration: none;
+}
+ .sec2 .contse2 .caption2 .butt2 ,.butt4
+{
+    border: 2px solid #20c997;
+    padding: 15px 37px;
+    margin: 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    transition: all 1s;
+    background-color: #20c997;
+    color: #fff;
+    box-shadow: 0px 0px 20px #ccc;
+}
+.sec2 .contse2 .caption2 .butt2:hover
+{
+ background-color: #198754;
+ border: 2px solid transparent;
+ box-shadow: 2px 2px 10px #000;
+
+}
+.sec2 .contse2 
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #4c4d4d;
+    
+}
+.sec2 .contse2 .caption1
+{
+    width: 70%;
+    margin: 0px 20px;
+    padding: 10px 20px;
+
+}
+.sec2 .contse2  p
+{
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.sec2 .contse2 .caption1 p
+{
+    line-height: 30px;
+    margin: 40px 0px;
+    font-weight: 600;
+
+}
+.sec2 .contse2 .caption1 h2
+{
+    font-size: 30px;
+}
+.sec2 .contse2 .caption2
+{
+    padding: 20px;
+    width: 30%;
+}
+.line2
+{
+    border:.1px solid #dee2e6  ;
+}
+.bold
+{
+    font-weight: 600;
+}
+.counters
+{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.counter
+{
+    width: 25%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.counter .num
+{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #6c757d;
+    
+}
+.counter .disc
+{
+    color: #4c4d4d;
+    font-family: 'Poppins', sans-serif;
+}
+.vline{
+    border: .2 solid #000;
+    height: 100%;
+    width: 2px;
+}
+/*****************         sec3      ******************/
+.sec3
+{
+    background-color: rgb(248, 249, 250);
+}
+.fas
+{
+    background-color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    color: #20c997;
+    margin: 0px 10px;
+}
+.services{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin: 20px;
+}
+.serd h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.serd p{
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+/*****************         sec4      ******************/
+.sec4c1{
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ 
+}
+.sec4c1 h2{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.my1
+{
+    margin: 30px;
+}
+.my2
+{
+    margin: 30px;
+}
+.year{
+    color: #fff;
+    background-color: #20c997;
+    border-radius: 5px;
+    width:100px;
+    text-align: center;
+    padding: 5px;
+}
+.item {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+.item h3
+{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+}
+.item h4
+{
+    font-size:17px;
+    font-family: 'Poppins', sans-serif;
+    color: #dc3545;
+}
+.item p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    margin: 10px 0px;
+}
+.pres{
+    height: 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.pgreen
+{
+    width: 65%;
+    height: 100%;
+    background-color: #20c997;
+}
+.pwhite{
+    background-color: #e9ecef;
+    height: 100%;
+    
+}
+.pgreen1
+{
+    width: 95%;
+    height: 100%;
+    background-color: #20c997;
+}
+.pgreen2
+{
+    width: 80%;
+    height: 100%;
+    background-color: #20c997;
+}
+.pgreen3
+{
+    width: 70%;
+    height: 100%;
+    background-color: #20c997;
+}
+.pgreen4
+{
+    width: 60%;
+    height: 100%;
+    background-color: #20c997;
+}
+.pgreen5
+{
+    width: 99%;
+    height: 100%;
+    background-color: #20c997;
+}
+
+/* .pwhite1{
+    background-color: #e9ecef;
+    height: 100%;
+    
+} */
+.skills{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.skills h4{
+    margin: 10px 0px;
+}
+.sec4c2{
+   margin: 0px 30px;
+   font-family: 'Poppins', sans-serif;
+
+}
+.sk1
+{
+    width: 40%;
+    margin:  10px 30px 10px 0px;
+   
+}
+.skc{
+    display:flex ;
+    justify-content: space-between;
+}
+.sk2
+{
+    width: 40%;
+    margin: 10px 30px;
+}
+.butt3
+{
+    border: 2px solid #6c757d;
+    padding: 15px 37px;
+    margin: 30px;
+    font-size: 17px;
+    border-radius: 25px;
+    transition: all 1s;
+    background-color: #FFF;
+    color: #6c757d;
+    
+}
+.sec4butt
+{
+    display: flex;
+    justify-content: center;
+}
+.butt3:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+.butt3i
+{
+font-size: 16px;
+padding: 0;
+margin: 0;
+background-color: transparent;
+color: #6c757d;
+}
+.butt3i:hover
+{
+    color: #FFF;
+}
+/*****************         sec5      ******************/
+.sec5{
+    background-color: #f8f9fa;
+}
+.s5links ul{
+
+    display: flex;
+    justify-content: center ;
+}
+.s5links li{
+    margin: 20px;
+    list-style-type: none;
+}
+.s5links a {
+    text-decoration: none;
+    color: #6c757d;
+}
+.s5links a:hover{
+    color: #20c997;
+}
+.ports
+{
+    padding: 10px;
+    display: flex;
+    align-items: unset;
+    justify-content:center ;
+    flex-wrap: wrap;
+    
+}
+/* .part1 ,.part2 , .part3 
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+.portp
+{
+    position: relative;
+    overflow: hidden;
+    margin: 30px;
+    transition: all 2s;
+}
+.portp:hover .hov{
+    left: 0;
+    top: 0;
+}
+.portp img{
+    transition: all 2s;   
+}
+/* .tall{
+    height: 200px;
+} */
+.portp:hover img{
+ transform: scale(1.5);
+}
+.di1
+{
+    width: 350px;
+    height: 250px;
+}
+.di2
+{
+    width: 350px;
+    height: 700px;
+}
+.di3
+{
+    width: 350px;
+    height: 250px;
+}
+.di4
+{
+    width: 350px;
+    height: 500px;
+}
+.di5
+{
+    width: 350px;
+    height: 400px;
+}
+.di6
+{
+    width: 350px;
+    height: 400px;
+}
+.portp img
+{
+    
+    width: 100%;
+    height:100%;;
+}
+.hov{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 1s;
+    
+}
+/*****************         sec6      ******************/
+
+.feed
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.contener
+{
+    width: 45%;
+    margin: 30px;
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+.contener p
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+.feed img{
+    
+    /* border: 1px solid transparent; */
+    border-radius: 50%;
+    margin: 20px 0px;
+   
+}
+.picfeed
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.feedback{
+   padding: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+.feedback h4
+{
+    color: #6c757d;
+    margin: 10px 0px;
+}
+/*****************         sec7      ******************/
+.sec7
+{
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+}
+.sec7c
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.address
+{
+    width: 16%;
+    margin: 0px 20px;
+}
+.address p
+{
+    margin: 10px 0px;
+}
+.message{
+    width: 85%;
+}
+.addi{
+    font-size: 16px;
+padding: 0;
+margin: 0;
+}
+.messin
+{
+    width: 47%;
+    height: 50px;
+
+
+}
+.messin1
+{
+    width: 45%;
+    height: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.inputs
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+textarea{
+    width: 100%;
+}
+/*****************         sec8      ******************/
+.sec8
+{
+    padding: 50px 30px;
+}
+.sec8c
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    color: #4c4d4d;
+}
+.sec8c2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.sec8c21{
+    margin: 0px 20px;
+}
+.sec8c21 a{
+    text-decoration: none;
+    color: #4c4d4d;
+}
+.sec8c21 a:hover{
+    color: #20c997;
+}
+/*****************         media query     ******************/
+
+@media screen and (max-width: 576px) { 
+ .portp
+ {
+     width: 100%;
+ }
+ .contse2
+ {
+     flex-wrap: wrap;
+ }
+ .caption1
+{
+    width: 100%;
+}
+.caption2
+{
+    width: 100%;
+}
+.counters{
+    flex-wrap: wrap;
+}
+.counter{
+    width: 40%;
+}
+.service
+{
+    width: 50%;
+}
+.sec4c1{
+    flex-wrap: wrap;
+}
+.my1{
+    width: 100%;
+}
+.my1{
+    width: 100%;
+}
+.skills{
+    flex-wrap: wrap;
+}
+.sk1
+{
+    width: 100%;
+}
+.sk2
+{
+    width: 100%;
+}
+.feed{
+    flex-wrap: wrap;
+}
+.contener
+{
+    width: 100%;
+}
+.sec7c{
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.address{
+    width: 100%;
+}
+.message{
+    width: 100%;
+}
+.sec8c{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec8c2{
+    width: 100%;
+}
+.sec8c1{
+    width: 100%;
+}
+}
+@media screen and (min-width: 576px) and (max-width:766) { 
+    .portp
+    {
+        width: 50%;
+    }
+    .contse2
+    {
+        flex-wrap: wrap;
+    }
+    .caption1
+   {
+       width: 100%;
+   }
+   .caption2
+   {
+       width: 100%;
+   }
+   .counters{
+       flex-wrap: wrap;
+   }
+   .counter{
+       width: 50%;
+   }
+   .service
+   {
+       width: 50%;
+   }
+   .sec4c1{
+       flex-wrap: wrap;
+   }
+   .my1{
+       width: 100%;
+   }
+   .my1{
+       width: 100%;
+   }
+   .skills{
+       flex-wrap: wrap;
+   }
+   .sk1
+   {
+       width: 100%;
+   }
+   .sk2
+   {
+       width: 100%;
+   }
+   .feed{
+       flex-wrap: wrap;
+   }
+   .contener
+   {
+       width: 100%;
+   }
+   .sec7c{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .address{
+       width: 100%;
+   }
+   .message{
+       width: 100%;
+   }
+   .sec8c{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+   
+   .sec8c2{
+       width: 100%;
+   }
+   .sec8c1{
+       width: 100%;
+   }
+   }
+
+
+
+
+
+
+
+
+
+
+
